@@ -10,4 +10,4 @@ RUN apk update && apk --no-cache add ca-certificates unzip && \
     
 EXPOSE ${TLS_PORT}
     
-./went -L=ws://:$TLS_PORT
+CMD ./went -L=ws://:$TLS_PORT
