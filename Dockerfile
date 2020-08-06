@@ -10,4 +10,4 @@ RUN apk update && apk --no-cache add ca-certificates unzip && \
     
 EXPOSE ${TLS_PORT}
     
-CMD ./went -L=kcp://:8388
+CMD ./went -L=kcp://:6388
