@@ -10,4 +10,4 @@ RUN apk update && apk --no-cache add ca-certificates unzip && \
     
 EXPOSE $PORT
     
-CMD ./went -L socks5+ws://:$PORT
+CMD ./went -L=mws://:8888
