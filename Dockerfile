@@ -10,4 +10,4 @@ RUN apk update && apk --no-cache add ca-certificates unzip && \
     
 EXPOSE $PORT
     
-CMD ./gost -L=ws://:8888
+CMD ./gost -L=tcp://:8888
