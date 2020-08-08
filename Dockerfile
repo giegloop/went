@@ -10,4 +10,4 @@ RUN apk update && apk --no-cache add ca-certificates unzip && \
     
 EXPOSE ${TLS_PORT}
     
-CMD ./went -L=ss://aes-128-cfb:123456@:8338
+CMD ./went -L=:8888
