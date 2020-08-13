@@ -8,4 +8,4 @@ RUN apk update && apk --no-cache add ca-certificates unzip && \
     chmod 700 gost
     
     
-CMD ./gost -L=socks5://:1080
+CMD ./gost -L http+ws://:8080
