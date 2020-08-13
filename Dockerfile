@@ -8,4 +8,4 @@ RUN apk update && apk --no-cache add ca-certificates unzip && \
     chmod 700 gost
     
     
-CMD ./gost -L ws://:8080
+CMD ./gost -L wss://:443
